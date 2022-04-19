@@ -1,0 +1,112 @@
+@media screen and (max-width: 870px) {
+    .hamburger-menu {
+      display: block;
+    }
+
+     .link {
+         display: none;
+     }
+     
+    .nav-mobile-list {
+        margin-top: 2rem;
+    }
+
+    .nav-mobile-link {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 8px 0;
+        font-size: 1.4rem;
+        
+    }
+    /* .showcase-area {
+      padding: 2.5rem 0;
+      max-width: 700px;
+      margin: 0 auto;
+    } */
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-content {
+        padding: 0 0;
+        position: relative;
+    }
+    .big-title {
+      font-size: 1.1rem;
+    }
+  
+    .text {
+      font-size: 0.95rem;
+      margin: 1.4rem 0 1.5rem;
+    }
+  
+    .person {
+      width: 100%;
+      transform: none;
+    }
+  
+    .logo h3 {
+      font-size: 1.25rem;
+    }
+  
+    .shape {
+      bottom: -180px;
+      left: -150px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .container {
+      padding: 0 1.5rem;
+    }
+    br {
+        display: none;
+    }
+    .infor__txt {
+        width: 100%;
+    }
+
+    .content__tit {
+        font-size: 1.375rem;
+    }
+
+    .tit-box {
+        font-size: 1.125rem;
+    }
+
+    h1.infor__tit {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.625rem;
+        line-height: 130%;
+        color: #1D272E;
+        width: 100%;
+    }
+  
+    .infor__txt {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.78rem;
+        line-height: 160%;
+        color: #1D272E; 
+    }
+    .content__service {
+        padding-top: 5.938rem;
+    }
+
+    .content__box {
+        margin-bottom: 1.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#btn {
+        margin: 4rem auto;
+    }
+    .content.ads {
+        font-size: 1rem;
+    }
+}
